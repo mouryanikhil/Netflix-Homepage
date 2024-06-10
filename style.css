@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+}
+
+body{
+    background-color: #141414;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+}
+
+.navbar {
+    height:60px;
+    background-color :  #141414;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.netflixLogo {
+    height:50px;
+    width: 150px;
+
+}
+
+.logo {
+    background-image: url("netflix logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+
+.main-nav{
+    display:flex;
+    align-items: center;
+    width:70%;
+
+}
+
+.main-nav p {
+    margin-left: 10px;
+
+}
+
+.navcorner{
+    display: flex;
+    align-items: center;
+}
+.navcorner i{
+    margin-left:10px; 
+}
+.navcorner p{
+    margin-left:10px; 
+}
+
+
+h1{
+    color:#F3F3F3;
+    margin-left: 15px;
+}
+
+
+.popularonnetflix1{
+      display:flex;
+      justify-content: space-evenly;
+      margin-top: 15px;
+}
+
+.box1{
+    height:100px;
+    width:18%;
+}
+
+
+.pon1{
+    background-image: url("pon1.png");
+    background-size: cover;
+}
+.pon2{
+    background-image: url("pon2.png");
+    background-size: cover;
+}
+.pon3{
+    background-image: url("pon3.png");
+    background-size: cover;
+}
+.pon4{
+    background-image: url("pon4.png");
+    background-size: cover;
+}
+.pon5{
+    background-image: url("pon5.png");
+    background-size: cover;
+}
+
+
+.popularonnetflix2{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box2{
+  height:100px;
+  width:18%;
+}
+
+
+.pon6{
+  background-image: url("pon6.png");
+  background-size: cover;
+}
+.pon7{
+  background-image: url("pon7.png");
+  background-size: cover;
+}
+.pon8{
+  background-image: url("pon8.png");
+  background-size: cover;
+}
+.pon9{
+  background-image: url("pon9.png");
+  background-size: cover;
+}
+.pon10{
+  background-image: url("pon10.png");
+  background-size: cover;
+}
+
+
+
+.trending{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box3{
+  height:100px;
+  width:18%;
+  margin-left: 5px;
+}
+
+
+.t1{
+  background-image: url("t1.png");
+  background-size: cover;
+}
+.t2{
+  background-image: url("t2.png");
+  background-size: cover;
+}
+.t3{
+  background-image: url("t3.png");
+  background-size: cover;
+}
+.t4{
+  background-image: url("t4.png");
+  background-size: cover;
+}
+.t5{
+  background-image: url("t5.png");
+  background-size: cover;
+}
+
+
+
+
+.tvs1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.box4{
+  height:100px;
+  width:18%;
+}
+
+
+.tv1{
+  background-image: url("tv1.png");
+  background-size: cover;
+}
+.tv2{
+  background-image: url("tv2.png");
+  background-size: cover;
+}
+.tv3{
+  background-image: url("tv3.png");
+  background-size: cover;
+}
+.tv4{
+  background-image: url("tv4.png");
+  background-size: cover;
+}
+.tv5{
+  background-image: url("tv5.png");
+  background-size: cover;
+}
+
+
+.tvs2{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.box5{
+height:100px;
+width:18%;
+}
+
+
+.tv6{
+background-image: url("tv6.png");
+background-size: cover;
+}
+.tv7{
+background-image: url("tv7.png");
+background-size: cover;
+}
+.tv8{
+background-image: url("tv8.png");
+background-size: cover;
+}
+.tv9{
+background-image: url("tv9.png");
+background-size: cover;
+}
+.tv10{
+background-image: url("tv10.png");
+background-size: cover;
+}
+
+
+
+.no1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.box6{
+  height:100px;
+  width:18%;
+  margin-left: 5px;
+}
+
+
+.o1{
+  background-image: url("o1.png");
+  background-size: cover;
+}
+.o2{
+  background-image: url("o2.png");
+  background-size: cover;
+}
+.o3{
+  background-image: url("o3.png");
+  background-size: cover;
+}
+.o4{
+  background-image: url("o4.png");
+  background-size: cover;
+}
+.o5{
+  background-image: url("o5.png");
+  background-size: cover;
+}
+
+.socialmedia{
+    color:		#686868;
+    width: 100px;
+    font-size: 2rem;
+    display:flex;
+    margin-left: 175px;
+    margin-top: 50px;
+    
+}
+
+.socialmedia i{
+    margin:8px;
+}
+
+.help{
+    color:#686868;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    
+}
+
+ul a{
+    display:block;
+    margin-top: 10px;
+}
+
+
+.cpyright p{
+    color:#686868;
+   
+}
+
+
+.cpyright {
+    margin-top:50px;
+    margin-left: 550px;
+
+}
+   
